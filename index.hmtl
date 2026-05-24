@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Trade</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0e27, #000);
+            color: #00ff88;
+            font-family: monospace;
+            text-align: center;
+            padding: 50px;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 48px;
+            text-shadow: 0 0 20px #00ff88;
+            margin-top: 100px;
+        }
+        .status {
+            font-size: 24px;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0,255,136,0.1);
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .green {
+            color: #00ff88;
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <h1>⚡ AUTO TRADE TERMINAL ⚡</h1>
+    <div class="status pulse">
+        🟢 САЙТ РАБОТАЕТ! 🟢
+    </div>
+    <div class="status green" style="margin-top: 20px; font-size: 16px;">
+        ✅ Render настроен правильно
+    </div>
+    <p style="margin-top: 80px; color: #666;">
+        Теперь загружаем полную версию...
+    </p>
+</body>
+</html>
